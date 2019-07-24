@@ -12,9 +12,34 @@
 
 		<script src="{% static '/vendors/jquery/jquery-3.3.1.min.js' %}"></script>
 		<script src="{% static '/vendors/jquery-ui/jquery-ui.min.js' %}"></script>
+    
+  <style>
+    .a{
+      margin: 10px;
+      height: 500px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-content: center;
+      background-color: purple;
+    }
+    .b{
+      width: 120px;
+      height: 100px;
+      margin: 10px;
+      background-color: orange;
+    }
+ </style>
 	</head>
 	<body>
 		<!-- Your layout here -->
-
+<div class="a">
+      <div class="b"></div>
+      <div class="b"></div>
+      <div class="b"></div>
+      <div class="b"></div>
+      <div class="b"></div>
+      <div class="b"></div>
+    </div>
 	</body>
 </html>
